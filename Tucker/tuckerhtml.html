@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="editing.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tucker Website</title>
+
+    <style>
+        .maintitle{margin: auto;}
+    </style>
+
+</head>
+
+
+<body id ="top">
+
+    <div class ="maintitle">
+        <h1>Tucker Fabin</h1>
+        <h1>
+            The time is currently: <span id="datetime"></span>
+        </h1>
+        
+    </div>  
+        
+    <div class = "duane">
+        <h3>
+            <u>Welcome to my webpage! :)</u>
+            <br>
+        </h3>
+
+
+                <img src="https://64.media.tumblr.com/4878cefdd0aec1ade24420a61f110826/09872d97a42e5877-43/s400x600/bb4b8bfb39239597910bbb260657ca04d65bb1f4.gifv" alt="Bruh" class ="center">
+
+                <img src="https://c.tenor.com/w1tS-BbT-qoAAAAC/deathpact-deathcord.gif" class ="center">
+
+
+
+
+    </div>
+    <script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = (dt.getHours() - 12) +":" + (("0" +dt.getMinutes()).slice(-2)) + ":" + (("0" + dt.getSeconds()).slice(-2));
+    </script>
+    <div class="musictable">
+
+        <table>
+            <tr><h1>Music 'n Stuff :)</h1>
+                <tr>
+                    
+                    <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3FcraZvYZmY7pYxZchm1TK?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+                    <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6lYZ5UWuPbXLX357pPONa7?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+                    <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5mCJPOqmY0sG2AqEdmTtEI?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+                    <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5RqRVrMQDtr9tFL1aa6DkX?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+                    <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6lSkb3aRnBs9fZzKrVZhF1?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+                    <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0uiUzKNxLGgJVAaEx2KJZY?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+                </tr>
+
+        </table>
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
