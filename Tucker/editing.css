@@ -31,7 +31,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
     height: auto;
     border-style:groove;
     border-width: 10px;
@@ -45,4 +47,9 @@
     text-align: center;
     background: linear-gradient(to bottom, #e61818, #004c6a);
     text-shadow:  100px 15px #ffffff, 0 0 5px #ff0000;
+}
+
+.iframe
+{
+    display: block;
 }
