@@ -23,8 +23,37 @@
     width: 30%;
     height: auto;
     text-underline-position: above;
+    transform: rotate(2deg);
+}
+.right
+{
+    
+    display: block;
+    margin-top: -250px;
+    margin-left: 203px;
 
+    width: 30%;
+    height: auto;
+    text-underline-position: above;
+    transform: rotate(2deg);
+}
+.somecenter
+{
+    
+    display: block;
+    margin-left: 123px;
 
+    width: 30%;
+    height: auto;
+    text-underline-position: above;
+    transform: rotate(-6deg);
+}
+.sponsor
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 .musictable
 {
@@ -34,13 +63,15 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    width:60%;
+    padding-top: 420px;
+    padding-bottom: 500px;
+    width:80%;
     height: auto;
     border-style:groove;
     border-width: 10px;
     background-image: url('http://i.gyazo.com/30b1c40a55fd8c464d9a346f81c2dbdb.png');
+    background-size: 200px;
     
-    background-size: 20%;
 }
 .maintitle
 {
@@ -52,6 +83,7 @@
     background-size: 10%;
     background-position: 2cm;
     text-shadow:  100px 15px #ffffff, 0 0 5px #ff0000;
+    transform: rotate(5deg);
 }
 
 .iframe
@@ -61,7 +93,7 @@
 
 .bottom
 {
-    margin-left: auto;
+    margin-left: 110px;
     margin-right: auto;
     width: 50%;
     background-image: url('https://bestanimations.com/media/vw/1561764961volkswagen-beetle-bug-animated-gif-6.gif');
@@ -70,4 +102,6 @@
     font-kerning: none;
     font-weight: 400;
     text-shadow: 0 0 15px #ffffff, 0 0 5px #ff0000;
+    transform: rotate(180deg);
+    box-shadow: 0 0 55px #ffffff, 0 0 5px #ff0000;
 }
