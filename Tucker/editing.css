@@ -58,3 +58,16 @@
 {
     display: block;
 }
+
+.bottom
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-image: url('https://bestanimations.com/media/vw/1561764961volkswagen-beetle-bug-animated-gif-6.gif');
+    background-size: 50%;
+    font-size: 50px;
+    font-kerning: none;
+    font-weight: 400;
+    text-shadow: 0 0 15px #ffffff, 0 0 5px #ff0000;
+}
