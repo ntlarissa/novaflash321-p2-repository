@@ -10,7 +10,8 @@
     border-style:solid;
     text-underline-position: above;
 
-    background: radial-gradient( #000, #aaaaaa);
+    background-image: url('http://gfxmaker.com/wp-content/uploads/2021/12/936.jpeg');
+    background-size: 20%;
     
 }
 .center
@@ -19,7 +20,7 @@
     display: block;
     margin-right: auto;
     margin-left:auto;
-    width: 60%;
+    width: 30%;
     height: auto;
     text-underline-position: above;
 
@@ -33,11 +34,13 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    width:100%;
+    width:60%;
     height: auto;
     border-style:groove;
     border-width: 10px;
-    background: radial-gradient(#ff0000, #500000);
+    background-image: url('http://i.gyazo.com/30b1c40a55fd8c464d9a346f81c2dbdb.png');
+    
+    background-size: 20%;
 }
 .maintitle
 {
@@ -45,7 +48,9 @@
     border-style: solid;
     border-width: 5px;
     text-align: center;
-    background: linear-gradient(to bottom, #e61818, #004c6a);
+    background-image: url('https://i.kym-cdn.com/photos/images/facebook/001/369/406/685.jpg');
+    background-size: 10%;
+    background-position: 2cm;
     text-shadow:  100px 15px #ffffff, 0 0 5px #ff0000;
 }
 
