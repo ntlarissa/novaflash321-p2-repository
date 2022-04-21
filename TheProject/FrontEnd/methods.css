@@ -1,0 +1,33 @@
+#questions
+{
+    text-align: center;
+}
+
+.categoryfont
+{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 20cm;
+;
+
+}
+
+.questionfont
+{
+    display: block;
+    position: relative;
+    font-style:italic;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.difficulty
+{
+    font-size: 24px;
+    display: block;
+    position: relative;
+    text-align: center;
+
+}
